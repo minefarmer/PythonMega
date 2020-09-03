@@ -1,0 +1,42 @@
+Integers are for representing whole numbers:
+    rank - 10
+    eggs = 12
+    people - 3
+
+Floats represents continues values:
+    temperature = 10.2
+    rainfall = 5.96
+    elevation = 1031.88
+
+Strings represent text:
+    message = "Welcome to our online shop"
+    name = "Carl"
+    serial = "R001991981SW"
+
+Lists represent arrays of values that may change during the course of the program:
+    members = ["Sandra Biskup", "Roger Matson"]
+    pixel_values = [252, 251, 251, 253, 240]
+
+Dictionaries represent pairs of keys and values:
+    phone_numbers = {"John Smith": "+3765435666"}
+    volcano_elevations = {"Glacier Peak": 3213.9. "Rainer": 4392.1}
+
+        Keys of Dictionaries can be extracted with:
+            phone_numbers.keys()
+
+        Values of Dictionaries can be extracted with:
+            phone_numbers.values()
+
+Tuples represent arrays of values that are not to be changed during the course of the program:
+    vowels = ('a', 'e', 'i', 'o', 'u')
+    one_digits = (0,1,2,3,4,5,6,7,8,9)
+
+To find out what attributes a type has:
+    dir(str)
+    dir(list)
+    dir(dict)
+
+Documentation for a Python command can be found with:
+    help(str)
+    help(str.replace)
+    help(dict.values)
