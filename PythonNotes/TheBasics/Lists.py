@@ -1,3 +1,1 @@
-monday_temperatures = [9.1, 8.8, 7.5]
-
-print(monday_temperatures)
+monday_temperatures = ['hello', 1, 2, 3]
