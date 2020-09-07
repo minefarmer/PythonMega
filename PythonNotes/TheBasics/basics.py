@@ -16,8 +16,36 @@
 
 
 
-def mean(mylist):
-    the_mean = sum(mylist) / len(mylist)
+# def mean(mylist):
+#     the_mean = sum(mylist) / len(mylist)
 
-print(mean([1, 4, 6]))  # None
+# print(mean([1, 4, 6]))  # None
 
+
+# x = 3
+# y = 1
+# if x > y:
+#     print("x is greater than y")  # x is greater than y
+# elif x == y:
+#     print("x is equal to y")
+# else:
+#     print("x is less than y")
+
+
+if 3>1:
+    print('a')
+    
+print('aa')
+print('aaa')
+
+if 3>1:
+    print('b')
+
+print("bb")
+print("bbb")
+
+if 3 < 1:
+    print('c')
+    
+print('cc')
+print('ccc')
