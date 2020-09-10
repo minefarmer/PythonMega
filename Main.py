@@ -1,6 +1,5 @@
+colors = [11, 34, 98, 43, 45, 54, 54]
 
-monday_temperatures = [9.1, 8.8, 7.6]
-
-print(round(monday_temperatures[0]))
-print(round(monday_temperatures[1]))
-print(round(monday_temperatures[2]))
+for color in colors:
+    if isinstance(color, int) and color > 50:
+        print(color)
