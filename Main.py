@@ -1,7 +1,6 @@
 
-user_input = input('Enter your name: ')
-# message = "Hello %s!" % user_input  # for use in python3.5 or earlier
-message = f"Hello {user_input}"
-print(message)  # Hello Rich!
+monday_temperatures = [9.1, 8.8, 7.6]
 
-
+print(round(monday_temperatures[0]))
+print(round(monday_temperatures[1]))
+print(round(monday_temperatures[2]))
