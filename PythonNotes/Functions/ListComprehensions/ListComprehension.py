@@ -1,6 +1,6 @@
 # Using list comprehension   16
 # Using list comprehension with if conditional   23
-# Using list comprehension 
+# Using list comprehension with if-else   35
 # 
 #
 
@@ -23,12 +23,18 @@
 
 
 # Using list comprehension with if conditional
-temps = [221, 234, 349, -9999, 30]
+# temps = [221, 234, 349, -9999, 30]
 
-new_temps = [temp / 10 for temp in temps if temp != -9999]
+# new_temps = [temp / 10 for temp in temps if temp != -9999]
 
-print(new_temps)  # [22.1, 23.4, 34.9, 3.0]
+# print(new_temps)  # [22.1, 23.4, 34.9, 3.0]
 
 
 
-# Using list comprehension 
+
+# Using list comprehension with if-else
+temps = [221, 234, 340, -9999, 230]
+
+new_temps = [temp / 10 if temp != -9999 else 0 for temp in temps]
+
+print(new_temps)
