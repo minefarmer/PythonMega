@@ -1,6 +1,12 @@
-with open("data.txt", "a+") as file:
-    file.seek(0)
-    content = file.read()
-    file.seek(0)
-    file.write(content)
-    file.write(content)
+import time
+import os
+import pandas
+
+while True:
+    if os.path.exists("temps_today.csv"):
+        data = pandas.read_csv("temps_today.csv")
+        print(data.mean())
+    else:
+        print("File does not exist.")
+    time.sleep(10)
+    
