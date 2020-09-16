@@ -89,9 +89,22 @@ def translate(w):
         yn = input("Did you mean %s instead? Enter Y if yes, or N if no: " % get_close_matches(w, data.keys())[0])  # Did you mean rain instead? Enter Y if yes, or N if no. Y
         if yn == "Y":
             return data[get_close_matches(w, data.keys())[0]]
+        elif yn == "N":
+            return "The word doesn't exist. Please double check it."
+        else:
+            return "We didn't understand your entry"
     else:
-        return "The word doesn't exist. Please doble check it."  
+        return "The word doesn't exist. Please double check it."  
 
 word = input("Enter word: ")  # rainn
 
 print(translate(word))  # ['Precipitation in the form of liquid water drops with diameters greater than 0.5 millimetres.', 'To fall from the clouds in drops of water.']
+
+output = translate(word)
+
+for item in output:
+    print(item)
+
+if type(output) == list:
+    for item in output:
+        print(item)
