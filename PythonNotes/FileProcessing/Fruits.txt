@@ -1,6 +1,0 @@
-pear
-apple
-orange
-mandaarin
-watermelon
-pomegranite
