@@ -1,0 +1,8 @@
+from re import L
+
+
+print("todai".replace("i", "y"))
+
+Control L clears the interactive shell console.
+
+Or type Exit.
