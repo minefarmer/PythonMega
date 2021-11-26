@@ -1,0 +1,6 @@
+Getting Help
+If you have a question or an issue, there are different ways to get a solution.
+
+1. Search the Q&A forum inside the course. There are thousands of questions and answers there. If your search doesn't yield any results, post a new question in the Q&A forum, and you will get an answer soon.
+
+2. You can also ask in our Discord channel, and there are always people online in the chat to help you. You can also chat with people about Python in the chat channels. Join now here: https://discord.gg/QWArvbdZVZ

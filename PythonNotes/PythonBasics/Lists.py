@@ -1,6 +1,11 @@
-monday_temperaters = [9.1, 8.8, 7.5]
+monday_temperatures = [9.1, 8.8, 7.5]
+# >>> monday_temperatures = [0.1, 8.8, 7.5]
+# >>> monday_temperatures.append(8.1)
+# >>> monday_temperatures.index(8.8)       
+# 1
+# >>> 
 
-
+monday_temperatures.__getitem__(1)  # 8.8
 
 
 
