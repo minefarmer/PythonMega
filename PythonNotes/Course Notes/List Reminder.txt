@@ -1,6 +1,0 @@
-List Reminder
-In the next lecture, you will learn more about lists. Here's a reminder of how a list looks like in case you forgot:
-
-search_engines = ["google", "bing", "duck duck go"]
-
-That's a list made of three values, which in this example happen to be all strings.
