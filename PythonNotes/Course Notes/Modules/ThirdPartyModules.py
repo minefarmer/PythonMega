@@ -15,4 +15,3 @@ while True:
                     # st1     22.150
                     # st2    21.275
                     # dtype: float64
-
